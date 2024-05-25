@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Romanesco&display=swap');
+
+*{
+    font-family: "Inter", sans-serif;
+    /* border: 1px solid red; */
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.TITULO1, h1{
+    font-family: "Romanesco", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 96px;
+}
+.TITULO2, h2{
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+}
+
+.MENU{
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+}
+
+header{
+    background-color: #A3A656;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding: 0px 20px 0px 70px;
+}
+header *{
+    color: #000;
+}
+header div{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+header div *{
+    margin-right: 5px;
+}
+header div :nth-child(2){
+    margin-right: 30px;
+}
+
+header ul{
+    white-space: nowrap;
+}
+
+header ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header div{
+    width: 100%;
+    text-align: right;
+}
+.titleContainer{
+    height: 800px;
+}
+
+.imgBackground{
+    background-image: url(./images/main.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 200px;
+    padding: 200px;
+}
+.imgBackground *{
+    margin: 20px;
+}
+
+.citaDiv{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F6F6;
+}
+.citaDiv *{
+    margin: 0px 10px;
+    padding: 15px;
+}
+.citaDiv input:nth-child(2){
+    height: 50px;
+    border-radius: 15px;
+    width: 250px;
+}
+.citaDiv input:nth-child(4){
+    height: 50px;
+    border-radius: 15px;
+    width: 200px;
+    padding: 15px;
+    place-content: #9E9A9A;
+}
+.cardContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 134px;
+    padding: 100px 0px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+}
+.card .cardTitle{
+    border-radius: 15px 15px 0 0;
+    background-color: #A3A656;
+    padding: 10px;
+    text-align: center;
+}
+.cardContainer .card h2{
+    white-space: nowrap;
+    color: #fff;
+}
+.car .imgCard{
+    width: 100%;
+}
+.imgCard img{
+    width: 100%;
+    height: auto;
+}
+.card p {
+    text-align: left;
+}
+.card .priceButton {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+.priceButton h2{
+    color: #000;
+}
+.card button{
+    width: 45%;
+    border-radius: 35px;
+    background-color: #A3A656;
+    color: #fff;
+    font-weight: 600;
+}
+
+.divSocio{
+    background-color: #F2F6F6;
+    text-align: center;
+    height: 770px;
+    padding-top: 30px;
+}
+
+.socioContainer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px 0px;
+    height: 100%;
+}
+
+.socioContainer .card{
+    width: 20%;
+    align-items: center;
+}
+
+.socioContainer .card .imgSocio{
+    border: 10px solid #384001;
+    border-radius: 100%;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.divSocio .card button{
+    width: 250px;
+    height: 3em;
+    margin: 30px 0px;
+    font-size: 1em;
+}
+
+.divSocio .card ul{
+    text-align: start;
+    padding-left: 20px;
+}
+
+.divSocio .card ul li{
+    padding: 5px 0px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    background-color: #384001;
+    height: 97px;
+}
+
+footer ul{
+    padding-left: 70px;
+    white-space: nowrap;
+}
+footer ul li{
+    display: inline-block;
+    color: #A3A656;
+    margin-right: 40px;
+}
+
+footer div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+footer *{
+    color: #A3A656;
+}
+
+footer div *{
+    margin: 0px 20px;
+}
+
+header :hover, footer :hover{
+    color: #ffff00;
+}
+
+button:hover{
+    background-color: #384001;
+    cursor: pointer;
+}
