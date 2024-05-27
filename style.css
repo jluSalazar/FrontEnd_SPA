@@ -48,6 +48,7 @@ header div{
 
 header div *{
     margin-right: 5px;
+    font-size: 12px;
 }
 header div :nth-child(2){
     margin-right: 30px;
@@ -59,7 +60,7 @@ header ul{
 
 header ul li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 header div{
@@ -104,8 +105,10 @@ header div{
     height: 50px;
     border-radius: 15px;
     width: 200px;
-    padding: 15px;
-    place-content: #9E9A9A;
+}
+.citaDiv input::placeholder{
+    font-size: 16px;
+    color: #9b9a9a;
 }
 .cardContainer{
     display: flex;
@@ -117,7 +120,9 @@ header div{
 .card{
     display: flex;
     flex-direction: column;
-    /* text-align: center; */
+}
+.cardContainer .card{
+    width: 350px;
 }
 .card .cardTitle{
     border-radius: 15px 15px 0 0;
@@ -129,7 +134,7 @@ header div{
     white-space: nowrap;
     color: #fff;
 }
-.car .imgCard{
+.card .imgCard{
     width: 100%;
 }
 .imgCard img{
@@ -138,6 +143,7 @@ header div{
 }
 .card p {
     text-align: left;
+    padding: 10px;
 }
 .card .priceButton {
     display: flex;
@@ -166,7 +172,6 @@ header div{
     display: flex;
     justify-content: space-evenly;
     padding: 80px 0px;
-    height: 100%;
 }
 
 .socioContainer .card{
@@ -175,10 +180,10 @@ header div{
 }
 
 .socioContainer .card .imgSocio{
-    border: 10px solid #384001;
+    border: 11px solid #384001;
     border-radius: 100%;
-    height: 250px;
-    width: 250px;
+    height: 255px;
+    width: 255px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -186,10 +191,10 @@ header div{
 }
 
 .divSocio .card button{
-    width: 250px;
-    height: 3em;
+    width: 275px;
     margin: 30px 0px;
     font-size: 1em;
+    padding: 20px;
 }
 
 .divSocio .card ul{
@@ -209,13 +214,17 @@ footer{
 }
 
 footer ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 150%;
     padding-left: 70px;
     white-space: nowrap;
 }
 footer ul li{
     display: inline-block;
     color: #A3A656;
-    margin-right: 40px;
 }
 
 footer div{
@@ -223,10 +232,12 @@ footer div{
     display: flex;
     align-items: center;
     justify-content: end;
+    padding-right: 1%;
 }
 
 footer *{
     color: #A3A656;
+    white-space: nowrap;
 }
 
 footer div *{
