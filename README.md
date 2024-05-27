@@ -6,7 +6,7 @@ Esta es una aplicación web que proporciona una experiencia de usuario fluida y 
 
 ## Indicaciones de Diseño
 
-Las indicaciones de diseño, incluyendo colores, espaciados, tamaños y otros detalles de estilo, están descritas en el documento `indicacionesSPA`. Asegúrate de revisar ese documento para comprender las especificaciones de diseño aplicadas en este proyecto.
+Las indicaciones de diseño, incluyendo colores, espaciados, tamaños y otros detalles de estilo, están descritas en el documento `Documentation/indicacionesSPA`. Asegúrate de revisar ese documento para comprender las especificaciones de diseño aplicadas en este proyecto.
 
 ## Despliegue
 
